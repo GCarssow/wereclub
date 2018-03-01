@@ -40,7 +40,7 @@ footer {
   padding-bottom: .5vw;
 }
 
-h1, h2, li, p, a {
+h1, h2, h3, li, p, a, .singles-name {
   font-family: 'VT323', monospace;
 }
 
@@ -78,11 +78,17 @@ a:hover {
 
 main {
   grid-row: 2/3;
+  margin: 16vh 0vw;
 }
 
 .singles-bubbles {
-  
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  width: auto;
 }
+
+
 
 /* footer */
 
