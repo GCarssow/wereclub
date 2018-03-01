@@ -137,6 +137,24 @@ main {
   font-size: 3vh;
 }
 
+.profile-wrapper {
+  padding: 5vh 1vw;
+}
+
+.greg-pic {
+  height: 33%;
+  width: 33%;
+}
+
+.bio {
+  padding: 1vw;
+  line-height: 2vh;
+}
+
+.singles.hidden {
+  display: none;
+}
+
 /* footer */
 
 .footer-nav ul {
