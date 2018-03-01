@@ -105,6 +105,24 @@ main {
   padding: 1vw;
 }
 
+.events-article {
+  padding: 2vw;
+}
+
+.events-article h1 {
+  padding: 1vw;
+  font-size: 3vh;
+}
+
+.event-post {
+  padding: 1vw;
+  line-height: 2.5vh;
+}
+
+.events-article a  {
+  padding: 1vw;
+}
+
 
 
 /* footer */
