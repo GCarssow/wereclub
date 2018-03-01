@@ -84,8 +84,17 @@ main {
 .singles-bubbles {
   display: flex;
   justify-content: space-around;
-  vertical-align: center;
-  width: auto;
+  align-self: center;
+  padding: 5vw;
+}
+
+.singles-bubbles img {
+  width: 75%;
+  height: auto;
+}
+
+.singles-bubbles div p, .singles-bubbles div button {
+  align-items: center;
 }
 
 .message-wrapper {
@@ -114,7 +123,7 @@ main {
   font-size: 3vh;
 }
 
-.event-post {
+.event-post, .faq-list li, .faq-list li p {
   padding: 1vw;
   line-height: 2.5vh;
 }
@@ -123,7 +132,10 @@ main {
   padding: 1vw;
 }
 
-
+.faq-title {
+  padding: 1vw;
+  font-size: 3vh;
+}
 
 /* footer */
 
