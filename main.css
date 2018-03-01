@@ -5,25 +5,30 @@ body {
   grid-template-rows: 10vh auto 10vh;
 }
 
+header, footer {
+  background: #5F1FB2;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding: 1vw;
+  width: auto;
+}
+
 header {
   background: #5F1FB2;
   top: 0;
-  right: 0;
-  left: 0;
   grid-row: 1/2;
-  position: fixed;
-  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1vw;
 }
 
 footer {
   grid-row: 3/4;
-  position: fixed;
   bottom: 0;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Header */
@@ -35,11 +40,11 @@ footer {
   padding-bottom: .5vw;
 }
 
-h1, h2, li, a {
+h1, h2, li, p, a {
   font-family: 'VT323', monospace;
 }
 
-.slogan, .user-name, .main-nav {
+.brand-2, .slogan, .user-name, .main-nav, .footer-nav {
   font-size: 3.5vh;
 }
 
@@ -69,6 +74,20 @@ a:hover {
   /* border: .25vw solid #FFEA34; */
 }
 
+/* main */
+
 main {
   grid-row: 2/3;
+}
+
+/* footer */
+
+.footer-nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 12vw;
+}
+
+.contanct-info, .contanct-info a  {
+  font-size: 2vh;
 }
